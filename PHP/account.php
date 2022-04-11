@@ -1,14 +1,16 @@
 <?php
-
-class Account{
+class Account {
     public $id;
     public $name;
     public $document;
     public $email;
     public $password;
 
-    publicfunction_construct($name, $document){
-        $this->name = $name
-        $this->document = $document
+    public function __construct($name, $document){
+        $this->name = $name;
+        $this->document = $document;
     }
+
 }
+
+?>
